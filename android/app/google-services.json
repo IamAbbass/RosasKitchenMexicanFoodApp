@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "170316349667",
+    "firebase_url": "https://sabzify-4f34b.firebaseio.com",
+    "project_id": "sabzify-4f34b",
+    "storage_bucket": "sabzify-4f34b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170316349667:android:738325ed45a4aec17945d6",
+        "android_client_info": {
+          "package_name": "com.zed.sabzify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170316349667-ojlabv24s07dl3dn0rdvusd41r7vnbl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrIn1gAizpaL3Rmib9wj31g79RjhssvnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170316349667-ojlabv24s07dl3dn0rdvusd41r7vnbl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
