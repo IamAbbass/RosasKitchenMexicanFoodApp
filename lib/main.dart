@@ -1014,38 +1014,38 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             Divider(),
-            ListTile(
-              leading: Icon(Icons.message, color: themePrimary, size: 32),
-              title: Text("WhatsApp Chat Support", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
-              subtitle: Text("Tap to chat with us at WhatsApp"),
-              onTap: (){
-                _launchURL("https://wa.me/message/Z7SJ6S5J5Z7VL1");
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.call, color: themePrimary, size: 32),
-              title: Text("Customer Care", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
-              subtitle: Text("Tap to call us at 0334-7229439"),
-              onTap: (){
-                _launchURL("tel:923347229439");
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.rate_review, color: themePrimary, size: 32),
-              title: Text("Rate Us", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
-              subtitle: Text("Like our app? Give us 5 stars"),
-              onTap: (){
-                _launchURL("https://play.google.com/store/apps/details?id=com.zed.sabzify");
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.share, color: themePrimary, size: 32),
-              title: Text("Share $appName App", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
-              subtitle: Text("Share $appName with your friends & family "),
-              onTap: (){
-                Share.share('$appName\nSasti | Taazi | Jaldi\nFresh Fruits & Vegetables Delivery\nStay Home, We Deliver\nOrder Now: https://sabzify.pk/');
-              },
-            ),
+            // ListTile(
+            //   leading: Icon(Icons.message, color: themePrimary, size: 32),
+            //   title: Text("WhatsApp Chat Support", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
+            //   subtitle: Text("Tap to chat with us at WhatsApp"),
+            //   onTap: (){
+            //     _launchURL("https://wa.me/message/Z7SJ6S5J5Z7VL1");
+            //   },
+            // ),
+            // ListTile(
+            //   leading: Icon(Icons.call, color: themePrimary, size: 32),
+            //   title: Text("Customer Care", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
+            //   subtitle: Text("Tap to call us at 0334-7229439"),
+            //   onTap: (){
+            //     _launchURL("tel:923347229439");
+            //   },
+            // ),
+            // ListTile(
+            //   leading: Icon(Icons.rate_review, color: themePrimary, size: 32),
+            //   title: Text("Rate Us", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
+            //   subtitle: Text("Like our app? Give us 5 stars"),
+            //   onTap: (){
+            //     _launchURL("https://play.google.com/store/apps/details?id=com.rosa.kitchen");
+            //   },
+            // ),
+            // ListTile(
+            //   leading: Icon(Icons.share, color: themePrimary, size: 32),
+            //   title: Text("Share $appName App", style: GoogleFonts.lato(color: themePrimary, fontSize: 18)),
+            //   subtitle: Text("Share $appName with your friends & family "),
+            //   onTap: (){
+            //     Share.share('$appName\nSasti | Taazi | Jaldi\nFresh Fruits & Vegetables Delivery\nStay Home, We Deliver\nOrder Now: https://sabzify.pk/');
+            //   },
+            // ),
           ],
         ),
       ),
@@ -1091,13 +1091,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         actions: [  
           
-          IconButton(
-            tooltip: "How To Order",
-            onPressed: (){
-              _launchURL("https://youtu.be/uDdfTF3qOEs");
-            },
-            icon: Icon(Icons.help_outline, color: themePrimary,),
-          ),
+          // IconButton(
+          //   tooltip: "How To Order",
+          //   onPressed: (){
+          //     _launchURL("https://youtu.be/uDdfTF3qOEs");
+          //   },
+          //   icon: Icon(Icons.help_outline, color: themePrimary,),
+          // ),
 
           IconButton(
             tooltip: "Cart",
